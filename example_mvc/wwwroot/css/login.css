@@ -1,0 +1,32 @@
+﻿
+/* CSSTerm.com Simple CSS login form */
+
+.login {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    -ms-transform: translateY(-50%, -50%);
+    transform: translateY(-50%, -50%);
+    border: 3px solid green;
+    /* ---height:110px;
+width:190px;
+margin:auto;
+border:1px #CCC solid;
+padding:10px; ---*/
+}
+
+    .login input {
+        padding: 5px;
+        margin: 5px
+    }
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    -ms-transform: translateY(-50%, -50%);
+    transform: translateY(-50%, -50%);
+}

@@ -1,7 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+    <head>
+        <link rel="stylesheet" href="~/css/login.css" />
+        @*<link rel="javascript" href="~/js/login.js" />*@
+        <script type="text/javascript" src="~/js/login.js"></script>
+    </head>
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
@@ -10,7 +14,7 @@
     <div class="align-content-center">
         <input type="text" placeholder="Username" id="username" />
         <input type="password" placeholder="Password" id="passwordd" />
-        <input type="submit" value="Sign In" id="submit" @*onclick="validate()*@" />
+        <input type="submit" value="Sign In" id="submit" onclick="validate()" />
         <a href="signup.html" class="Signup">Sign Up Now</a>
     </div>
 </div>
